@@ -8,6 +8,8 @@ Build a software tool for Code Analysis. Currently the software emphasizes on C+
 Code Analyis consists of extracting the Lexical content from Source files, analyzing the Code's Syntax from its lexical content, and building a Type Table (TT) that holds the results of analysis.
 It is then fairly easy to build several backends that can do further analysis on the data held in Type Table to construct code metrics, search for particular constructs, or some other interesting feature of the code.
 
+![codeanalyzerpackages](https://user-images.githubusercontent.com/24962915/35677161-8f2f1fba-071c-11e8-95ef-839b2018c83f.png)
+
 Description to the Major Packages in the Code Analysis -
 
 1. TypeTable - Provides a container class that stores type information needed for dependency analysis. Type Table is built using the Parser Package.
@@ -24,6 +26,8 @@ This Parser demo code is packaged so that you only need to change 3 files to sup
   The ConfigParserToConsole owns all of these objects, holds onto them for the entire exection and then destroys them when it goes out of scope.
 You might also add to Utilities to provide small helper functions and classes as needed by your implementation.)
 
+![parserstaticstructure](https://user-images.githubusercontent.com/24962915/35677192-a76e0852-071c-11e8-892a-4aa7ed19a750.png)
+
 2. TypeAnalysis - Finds all the types and global functions defined in each of a collection of C++ source files. 
                   It does this by building rules to detect:
                   ◦ type definitions - classes, structs, enums, typedefs, and aliases. 
@@ -39,6 +43,8 @@ You might also add to Utilities to provide small helper functions and classes as
 6. NoSqlDb:Stores and retrieves dependency information in a NoSqlDb<std::string>, (Please See NoSQL Database Repository for Details). Here, child relationships denote compile dependencies. 
 
 7. TestExecutive:Provides code to demonstrate functioning of all the packages described above. 
+
+
 
 
 
