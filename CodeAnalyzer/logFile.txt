@@ -1,0 +1,148 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Wed Dec 28 08:23:44 2016
+     Path: "C:\su\Repository\CodeAnalyzer"
+     Args: *.h, *.cpp, *.cs, /s, /r, /f
+                                                                               
+       173 : C:\su\Repository\CodeAnalyzer\AbstractSyntaxTree\AbstrSynTree.h
+       183 : C:\su\Repository\CodeAnalyzer\AbstractSyntaxTree\AbstrSynTree.cpp
+       191 : C:\su\Repository\CodeAnalyzer\Analyzer\Executive.h
+       912 : C:\su\Repository\CodeAnalyzer\Analyzer\Executive.cpp
+       165 : C:\su\Repository\CodeAnalyzer\Cpp11-BlockingQueue\Cpp11-BlockingQueue.h
+        90 : C:\su\Repository\CodeAnalyzer\Cpp11-BlockingQueue\Cpp11-BlockingQueue.cpp
+       176 : C:\su\Repository\CodeAnalyzer\FileMgr\FileMgr.h
+        72 : C:\su\Repository\CodeAnalyzer\FileMgr\FileMgr.cpp
+        43 : C:\su\Repository\CodeAnalyzer\FileMgr\IFileMgr.h
+       251 : C:\su\Repository\CodeAnalyzer\FileSystem\FileSystem.h
+      1207 : C:\su\Repository\CodeAnalyzer\FileSystem\FileSystem.cpp
+        81 : C:\su\Repository\CodeAnalyzer\FileSystem\TestFileSystem\CopyOfUnitTest.h
+       429 : C:\su\Repository\CodeAnalyzer\FileSystem\TestFileSystem\FileSystemTest.cpp
+        81 : C:\su\Repository\CodeAnalyzer\FileSystem\TestFileSystem\UnitTest.h
+        73 : C:\su\Repository\CodeAnalyzer\FileSystem\TestFileSystem\UnitTest.cpp
+       231 : C:\su\Repository\CodeAnalyzer\GUI\Window.h
+       880 : C:\su\Repository\CodeAnalyzer\GUI\Window.cpp
+        79 : C:\su\Repository\CodeAnalyzer\GrammarHelpers\GrammarHelpers.h
+       645 : C:\su\Repository\CodeAnalyzer\GrammarHelpers\GrammarHelpers.cpp
+       119 : C:\su\Repository\CodeAnalyzer\Logger\Logger.h
+       192 : C:\su\Repository\CodeAnalyzer\Logger\Logger.cpp
+      1281 : C:\su\Repository\CodeAnalyzer\Parser\ActionsAndRules.h
+        62 : C:\su\Repository\CodeAnalyzer\Parser\ActionsAndRules.cpp
+       134 : C:\su\Repository\CodeAnalyzer\Parser\ConfigureParser.h
+       243 : C:\su\Repository\CodeAnalyzer\Parser\ConfigureParser.cpp
+       134 : C:\su\Repository\CodeAnalyzer\Parser\Parser.h
+       145 : C:\su\Repository\CodeAnalyzer\Parser\Parser.cpp
+       196 : C:\su\Repository\CodeAnalyzer\ScopeStack\ScopeStack.h
+       125 : C:\su\Repository\CodeAnalyzer\ScopeStack\ScopeStack.cpp
+       123 : C:\su\Repository\CodeAnalyzer\SemiExp\SemiExp.h
+       390 : C:\su\Repository\CodeAnalyzer\SemiExp\SemiExp.cpp
+        63 : C:\su\Repository\CodeAnalyzer\SemiExp\itokcollection.h
+        18 : C:\su\Repository\CodeAnalyzer\TestFiles-CS\Program.cs
+        36 : C:\su\Repository\CodeAnalyzer\TestFiles-CS\Properties\AssemblyInfo.cs
+        18 : C:\su\Repository\CodeAnalyzer\TestFiles-CS\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+        18 : C:\su\Repository\CodeAnalyzer\TestFiles-CS\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+        18 : C:\su\Repository\CodeAnalyzer\TestFiles-CS\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+        19 : C:\su\Repository\CodeAnalyzer\TestFiles\Test1.h
+        29 : C:\su\Repository\CodeAnalyzer\TestFiles\Test1.cpp
+        11 : C:\su\Repository\CodeAnalyzer\TestFiles\Test2.cpp
+       115 : C:\su\Repository\CodeAnalyzer\Tokenizer\Tokenizer.h
+       742 : C:\su\Repository\CodeAnalyzer\Tokenizer\Tokenizer.cpp
+        94 : C:\su\Repository\CodeAnalyzer\Utilities\Utilities.h
+       145 : C:\su\Repository\CodeAnalyzer\Utilities\Utilities.cpp
+
+      Total line count = 10432
+
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         ActionsAndRules.h    function                           doAction     590      82       6
+       ConfigureParser.cpp    function                              Build      89      98       3
+   Cpp11-BlockingQueue.cpp    function                               main      37      52       3
+             Executive.cpp    function                  processSourceCode     365      95       8
+        GrammarHelpers.cpp    function              isFirstArgDeclaration     164      54       2
+        GrammarHelpers.cpp    function                               main     584      59      17
+            ScopeStack.cpp    function                               main      49      75       1
+             Tokenizer.cpp    function                          nextState     192      79      14
+             Tokenizer.cpp    function                               main     663      79      10
+                Window.cpp    function                    getUserSettings     104      57       4
+                Window.cpp    function                 setUpDisplaysPanel     501      53       1
+                Window.cpp    function              createDisplayModeView     566      54       1
+                Window.cpp    function                    browseForFolder     701      52       5
+                Window.cpp    function                  browseForFolderEx     760      54       6
+
+              public data: AbstrSynTree.h : 72 - struct DeclarationNode
+                Scanner :: ITokCollection * pTc = nullptr ; 
+              public data: AbstrSynTree.h : 73 - struct DeclarationNode
+                Access access_ ; 
+              public data: AbstrSynTree.h : 74 - struct DeclarationNode
+                DeclType declType_ ; 
+              public data: AbstrSynTree.h : 75 - struct DeclarationNode
+                std :: string package_ ; 
+              public data: AbstrSynTree.h : 76 - struct DeclarationNode
+                size_t line_ ; 
+              public data: AbstrSynTree.h : 89 - struct ASTNode
+                Type type_ ; 
+              public data: AbstrSynTree.h : 90 - struct ASTNode
+                Name name_ ; 
+              public data: AbstrSynTree.h : 91 - struct ASTNode
+                Package package_ ; 
+              public data: AbstrSynTree.h : 92 - struct ASTNode
+                Path path_ ; 
+              public data: AbstrSynTree.h : 93 - struct ASTNode
+                size_t startLineCount_ ; 
+              public data: AbstrSynTree.h : 94 - struct ASTNode
+                size_t endLineCount_ ; 
+              public data: AbstrSynTree.h : 95 - struct ASTNode
+                size_t complexity_ ; 
+              public data: AbstrSynTree.h : 96 - struct ASTNode
+                std :: vector < ASTNode * > children_ ; 
+              public data: AbstrSynTree.h : 97 - struct ASTNode
+                std :: vector < DeclarationNode > decl_ ; 
+              public data: AbstrSynTree.h : 98 - struct ASTNode
+                std :: vector < Scanner :: ITokCollection * > statements_ ; 
+              public data: Program.cs : 11 - class Program
+                public int aPublicDataMember = 3 ; 
+              public data: ScopeStack.cpp : 26 - struct element
+                std :: string type ; 
+              public data: ScopeStack.cpp : 27 - struct element
+                std :: string name ; 
+              public data: ScopeStack.cpp : 28 - struct element
+                size_t startLineCount = 0 ; 
+              public data: ScopeStack.cpp : 29 - struct element
+                size_t endLineCount = 0 ; 
+              public data: ScopeStack.cpp : 30 - struct element
+                std :: string path_ ; 
+              public data: Tokenizer.cpp : 34 - struct Context
+                std :: string token ; 
+              public data: Tokenizer.cpp : 35 - struct Context
+                std :: istream * _pIn ; 
+              public data: Window.h : 102 - struct Settings
+                bool h ; 
+              public data: Window.h : 102 - struct Settings
+                bool cpp ; 
+              public data: Window.h : 102 - struct Settings
+                bool cs ; 
+              public data: Window.h : 103 - struct Settings
+                bool upatt ; 
+              public data: Window.h : 104 - struct Settings
+                bool cl ; 
+              public data: Window.h : 105 - struct Settings
+                bool metrics ; 
+              public data: Window.h : 106 - struct Settings
+                bool ast ; 
+              public data: Window.h : 107 - struct Settings
+                bool slocs ; 
+              public data: Window.h : 108 - struct Settings
+                bool logfile ; 
+              public data: Window.h : 109 - struct Settings
+                bool rslt ; 
+              public data: Window.h : 110 - struct Settings
+                bool demo ; 
+              public data: Window.h : 111 - struct Settings
+                bool dbug ; 
+
+
+    searched   104 dirs
+   processed    44 files

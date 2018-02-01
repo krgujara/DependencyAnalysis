@@ -1,0 +1,4 @@
+﻿  NoSqlDb.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\Solution1\Debug\XmlDocument.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\Solution1\x64\Debug\NoSqlDb.exe : fatal error LNK1120: 1 unresolved externals

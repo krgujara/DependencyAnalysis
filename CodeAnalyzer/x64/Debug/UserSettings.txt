@@ -1,0 +1,14 @@
+C:\su\Repository\CodeAnalyzer
+true
+true
+true
+false
+FolderSelection
+true
+false
+false
+true
+true
+false
+false
+true

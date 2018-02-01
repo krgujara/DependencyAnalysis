@@ -1,0 +1,44 @@
+<database>   <element>
+      <key>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.h</key>
+      <name>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.h</name>
+      <category>Parent</category>
+      <description>This is Parent File</description>
+      <timeDate>3/7/2017 7:00</timeDate>
+      <children>
+         <child>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.cpp</child>
+      </children>
+      <data>File data</data>
+   </element>   <element>
+      <key>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File2.h</key>
+      <name>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File2.h</name>
+      <category>Parent</category>
+      <description>This is Parent File</description>
+      <timeDate>3/7/2017 7:00</timeDate>
+      <children>
+         <child>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.h</child>
+         <child>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File2.cpp</child>
+      </children>
+      <data>File data</data>
+   </element>   <element>
+      <key>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.cpp</key>
+      <name>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.cpp</name>
+      <category>Parent</category>
+      <description>This is Parent File</description>
+      <timeDate>3/7/2017 7:00</timeDate>
+      <children>
+         <child>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.h</child>
+      </children>
+      <data>File data</data>
+   </element>   <element>
+      <key>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File2.cpp</key>
+      <name>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File2.cpp</name>
+      <category>Parent</category>
+      <description>This is Parent File</description>
+      <timeDate>3/7/2017 7:00</timeDate>
+      <children>
+         <child>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File1.cpp</child>
+         <child>C:\Users\Komal\Documents\GitHub\ObjectOrientedAnalysisDesign\CodeAnalyzer\TestFiles\File2.h</child>
+      </children>
+      <data>File data</data>
+   </element>
+</database>
